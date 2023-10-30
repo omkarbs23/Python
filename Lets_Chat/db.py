@@ -1,7 +1,7 @@
 import pymysql as p
 
 def universal_function(query, show=0):
-    conn = p.connect(user="omkarbs23", password="MYsql_9029338161", host="omkarbs23.mysql.pythonanywhere-services.com", database="omkarbs23$chat_app")
+    conn = p.connect(user="your__username", password="your__password", host="your__host", database="your__dbname")
     cur = conn.cursor()
     cur.execute(query)
     conn.commit()
